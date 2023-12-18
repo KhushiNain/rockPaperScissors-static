@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color: white;
+    font-family: 'Poppins', sans-serif;;
+    
+}
+body{
+    background-image: url(./assets/bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.main-page{
+    height: 100vh;
+}
+.main-page h1{
+    text-align: center;
+    font-size:  60px;
+    color: rgb(90, 37, 192);
+    padding-top: 5%;
+}
+.playImg{
+    margin-left: 19%;
+    margin-top: 30px;
+}
+.main-page .play-button{
+    position: relative;
+    bottom: 60px;
+    display: flex;
+    align-items: center;
+    font-size: 25px;
+    justify-content: end;
+    margin-right: 20%;
+}
+.bx-play-circle{
+    font-size: 50px;
+    margin-right: 25px;
+}
+
+/* styling of game page */
+.score{
+    /* border: 2px solid red; */
+    margin-top: 80px;
+    font-size: 100px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+.second-container{
+    /* border: 2px solid yellow; */
+    width: 75%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.firstbox{
+    width: 29vw;
+    height: 29vw;
+    margin-bottom: 80px;
+    border: 3px solid  #FFC436;
+}
+.secondbox{
+    margin-bottom: 80px;
+    width: 29vw;
+    height: 29vw;
+    border: 3px solid  #FFC436;
+}
+h1{
+    text-align: center;
+}
+#handsign{
+    height: 65%;
+}
+.handlogos{
+    display: flex;
+    justify-content: space-around;
+}
+.handlogos img{
+    width: 20%;
+}
+
