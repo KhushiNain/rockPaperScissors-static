@@ -9,9 +9,9 @@
 <body>
     <div class="container">
         <div class="score">
-            <span class="user-score">0</span>
+            <span id="user-score">0</span>
             <span>-</span>
-            <span class="comp-score">0</span>
+            <span id="comp-score">0</span>
         </div>
         <div class="second-container">
             <div class="firstbox">
@@ -19,7 +19,7 @@
                 <div id="handsign">
                     
                 </div>
-                <div class="handlogos">
+                <div class="handlogos" id="gameovergo">
                     <img id="rock" src="./assets/rock-logo.png" alt="">
                     <img id="paper" src="./assets/paper-logo.png" alt="">
                     <img id="scissors" src="./assets/scissors-logo.png" alt="">
@@ -36,6 +36,11 @@
         </div>
         </div>   
     </div>
+    <div  class="result" id="show">
+        <div id="resulttext"></div>
+        <button onclick="playAgain()">Play Again</button>
+    </div>
+
 <script src="./game.js"></script>    
 </body>
 </html>
