@@ -42,7 +42,6 @@ body{
 /* styling of game page */
 .container{
     height: 100vh;
-    border: 2px solid yellow;
 }
 .score{
     /* border: 2px solid red; */
@@ -91,7 +90,7 @@ h1{
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    border: 2px solid red;
+    
 }
 .result div{
     font-size: 50px;
