@@ -42,6 +42,7 @@ body{
 /* styling of game page */
 .container{
     height: 100vh;
+    border: 2px solid black;
 }
 .score{
     /* border: 2px solid red; */
